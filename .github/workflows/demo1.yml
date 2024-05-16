@@ -13,7 +13,7 @@ on:
     branches:
       - main # just 'main' branch
       - 'dev-*' # any branch starting with 'dev-' exp: dev-new, dev-this-is-new 
-      - 'feat/**' # feat/new feat/new/button 
+      - 'feat/**' # feat/new feat/new/button  
     paths-ignore:
       - '.github/workflows/*'
 jobs:
