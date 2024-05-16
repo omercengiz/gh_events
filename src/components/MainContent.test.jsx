@@ -4,6 +4,7 @@ import userEvent from '@testing-library/user-event';
 
 import MainContent from './MainContent';
 // Testing Process will be added
+// Don't forget to import the necessary functions and objects from the testing-library
 describe('MainContent', () => {
   it('should render a button', () => {
     render(<MainContent />);
